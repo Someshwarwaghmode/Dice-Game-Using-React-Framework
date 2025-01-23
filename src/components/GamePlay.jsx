@@ -49,7 +49,7 @@ const resetScore = () =>{
       </div>
       <RollDice currDice={currDice} roleDice={roleDice}/>
       <div className="btns">
-        <OutlineButton onClick={resetScore}> change reset btn</OutlineButton>
+        <OutlineButton onClick={resetScore}>Reset</OutlineButton>
         <Button onClick={() => setShowRules((prev) => !prev)}>{showRules ? "Hide" : "Show"} Rules</Button>
       </div>
       {showRules && <Rules/>}
