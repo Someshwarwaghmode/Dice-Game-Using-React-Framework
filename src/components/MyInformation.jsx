@@ -12,6 +12,7 @@ const MyInformation = () => {
 export default MyInformation;
 const InfoContainer = styled.div`
     h4{
+        
         display: flex;
         align-items: center;
         justify-content: center;

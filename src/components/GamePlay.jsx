@@ -49,7 +49,7 @@ const resetScore = () =>{
       </div>
       <RollDice currDice={currDice} roleDice={roleDice}/>
       <div className="btns">
-        <OutlineButton onClick={resetScore}>Reset</OutlineButton>
+        <OutlineButton onClick={resetScore}> change reset btn</OutlineButton>
         <Button onClick={() => setShowRules((prev) => !prev)}>{showRules ? "Hide" : "Show"} Rules</Button>
       </div>
       {showRules && <Rules/>}
@@ -62,6 +62,7 @@ export default GamePlay;
   const MainContainer = styled.main`
     padding-top: 70px;
     .top_section{
+      height: calc(100vh - 600px);
       display: flex;
       justify-content: space-around;
       align-items: end;

@@ -25,7 +25,7 @@ const Container = styled.div`
     display: flex;
     overflow:hidden;
     max-width: 1182px;
-    height: 100vh;
+    height: calc(100vh - 49px );
     gap: 5px;
     align-items: center;
     margin: 0 auto;
